@@ -15,17 +15,41 @@ CLRS（*Introduction to Algorithms*／邦題：**アルゴリズムイントロ�
 章末問題についても、多くは既存の解答を参照せずに試行錯誤しながら解いたものです。
 その過程で、従来解答が提示されていなかった問題に対する解法を考えた例や、
 既存解答の誤りに気づき修正を提案した例があり、
-一部は Pull Request として上流リポジトリに反映されています。
-解答の正確さだけでなく、考えた過程や別解の検討を重視して記録しています。
+一部は Pull Request として上流リポジトリに提出しました。
+解答の正確さだけでなく、考えた過程や別解の検討を重視して記録していました。
 
 ### 上流リポジトリへの貢献（Pull Requests）
 
 CLRS（*Introduction to Algorithms*／アルゴリズムイントロダクション）の
 解答に関する考察・修正提案は、上流リポジトリに対する
-Pull Request として提出しています。
+Pull Request として提出しました。
 
 - [walkccc/CLRS に出した Pull Requests (closed) の一覧](https://github.com/walkccc/CLRS/pulls?q=is%3Apr+is%3Aclosed+author:minarai7)
 
-**Pull Requests / Issues の例：**
-- Pull Requests（closed）  
-  https://github.com/walkccc/CLRS/pulls?page=9&q=is%3Apr%20is%3Aclosed
+以下に当時Pull Requests の例を一部示す。
+
+#### [赤黒木における join 操作](https://github.com/walkccc/CLRS/pull/158)
+
+本件では、CLRS（*Introduction to Algorithms*／**アルゴリズムイントロダクション**）に記載されている
+**赤黒木における join 操作**について、実装および説明の整理・改善を行いました。
+
+* **(c) の検討**
+  部分木 (T_y) を (T_y \cup {x} \cup T_2) に置き換える処理について、
+  親子ポインタを個別に書き換える方法ではなく、
+  標準的な **TRANSPLANT 操作**を用いることで、
+  **二分探索木の性質を保ったまま (O(1)) 時間で置換できる**ことを明確にしました。
+  これにより、実装の簡潔性と正当性が向上します。
+
+* **(d) の検討**
+  新たに挿入する節点 (x) の色は **赤** とすることで、
+  赤黒木の性質（1・3・5）を維持できることを示しました。
+  その上で、残る性質（2・4）については
+  標準の **INSERT-FIXUP** 手続きを適用することで
+  **(O(\log n)) 時間で回復できる**ことを整理しました。
+
+本提案では、
+
+* 構造変更（定数時間）
+* 色調整・再平衡（対数時間）
+
+を明確に分離し、赤黒木の不変条件を保つ実装方針を簡潔に示しています。
