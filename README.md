@@ -5,8 +5,7 @@ CLRS（*Introduction to Algorithms*／邦題：**アルゴリズムイントロ�
 の章末問題解答をまとめた、以下のオープンソースリポジトリを
 学習目的でフォークしたものです。
 
-- CLRS Solutions（Original Repository）  
-  https://github.com/（元リポジトリのURL）
+- [CLRS Solutions](https://github.com/walkccc/CLRS) （元のリポジトリ）
 
 本フォークには、CLRS の問題に対する個人的な解答および考察メモを追加しています。
 中学3年時に原著を独学で読み進めながら取り組んだもので、
