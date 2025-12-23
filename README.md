@@ -20,11 +20,12 @@ CLRS（*Introduction to Algorithms*／邦題：**アルゴリズムイントロ�
 
 ### 上流リポジトリへの貢献（Pull Requests）
 
-主に以下のような内容について、Pull Request を通じて提案しました。
+CLRS（*Introduction to Algorithms*／アルゴリズムイントロダクション）の
+解答に関する考察・修正提案は、上流リポジトリに対する
+Pull Request として提出しています。
 
-- 既存解答の誤りや不整合の指摘
-- 別解・補足説明の提案
-- 解法の前提条件や境界ケースに関する考察
+- walkccc/CLRS に出した Pull Requests (closed) の一覧
+  https://github.com/walkccc/CLRS/pulls?q=is%3Apr+is%3Aclosed+author:minarai7
 
 **Pull Requests / Issues の例：**
 - Pull Requests（closed）  
