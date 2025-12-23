@@ -28,7 +28,7 @@ Pull Request として提出しました。
 
 以下に当時Pull Requests の例を一部示す。
 
-#### [赤黒木における join 操作](https://github.com/walkccc/CLRS/pull/158)
+#### [章末問題13-2 赤黒木における join 操作](https://github.com/walkccc/CLRS/pull/158)
 
 本件では、CLRS（*Introduction to Algorithms*／**アルゴリズムイントロダクション**）に記載されている
 **赤黒木における join 操作**について、実装および説明の整理・改善を行いました。
