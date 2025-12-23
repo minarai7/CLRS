@@ -15,5 +15,17 @@ CLRS（*Introduction to Algorithms*／邦題：**アルゴリズムイントロ�
 章末問題についても、多くは既存の解答を参照せずに試行錯誤しながら解いたものです。
 その過程で、従来解答が提示されていなかった問題に対する解法を考えた例や、
 既存解答の誤りに気づき修正を提案した例があり、
-一部は pull request として上流リポジトリに反映されています。
+一部は Pull Request として上流リポジトリに反映されています。
 解答の正確さだけでなく、考えた過程や別解の検討を重視して記録しています。
+
+### 上流リポジトリへの貢献（Pull Requests）
+
+主に以下のような内容について、Pull Request を通じて提案しました。
+
+- 既存解答の誤りや不整合の指摘
+- 別解・補足説明の提案
+- 解法の前提条件や境界ケースに関する考察
+
+**Pull Requests / Issues の例：**
+- Pull Requests（closed）  
+  https://github.com/walkccc/CLRS/pulls?page=9&q=is%3Apr%20is%3Aclosed
