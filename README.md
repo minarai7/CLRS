@@ -24,8 +24,8 @@ CLRS（*Introduction to Algorithms*／アルゴリズムイントロダクショ
 解答に関する考察・修正提案は、上流リポジトリに対する
 Pull Request として提出しています。
 
-- walkccc/CLRS に出した Pull Requests (closed) の一覧
-  https://github.com/walkccc/CLRS/pulls?q=is%3Apr+is%3Aclosed+author:minarai7
+- [walkccc/CLRS に出した Pull Requests (closed) の一覧]
+  (https://github.com/walkccc/CLRS/pulls?q=is%3Apr+is%3Aclosed+author:minarai7)
 
 **Pull Requests / Issues の例：**
 - Pull Requests（closed）  
